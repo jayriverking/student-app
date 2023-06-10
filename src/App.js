@@ -11,7 +11,7 @@ function App() {
     <main>
       <h1>Attendance: First student list</h1>
       {studentList}
-      <h2>Class Info!</h2>
+      <h1>Class Info!</h1>
       {classInfo}
     </main>
   );
