@@ -1,13 +1,13 @@
 import React from "react";
 
-const Student = () => {
+const Student = (props) => {
     return (
         <ul>
             <li>
-                Nickname: Ada
+                Nickname: {props.name}
             </li>
             <li>
-                Email: ada@dev.org
+                Email: {props.email}
             </li>
         </ul>
     );
